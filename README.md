@@ -63,22 +63,23 @@ Radius, texture, perimeter, and area mean/se/worst
 Smoothness, compactness, concavity, and concave points mean/se/worst
 Symmetry and fractal dimension mean/se/worst
 Target variable: Diagnosis (benign: 0, malignant: 1)
+
 # Data Analysis
-**Exploratory Data Analysis (EDA)** was conducted to visualize the distribution of cancer types, relationships between features, and identify patterns within the dataset.
+**Exploratory Data Analysis (EDA)** was conducted to visualize the distribution of cancer types, and relationships between features, and identify patterns within the dataset.
 
 # Modeling
 # Preprocessing
-Data preprocessing involved handling null values, duplicate records, and outliers. StandardScaler and SMOTE techniques were applied to normalize and address class imbalance.
+Data preprocessing involved handling null values, duplicate records, and outliers. StandardScaler and SMOTE techniques were applied to normalize and address the class imbalance.
 
 # Baseline Model
-The baseline model, a Decision Tree, achieved an accuracy of 92.11% and demonstrated good precision, recall, and F1-score for both benign and malignant cases.
+The baseline model, a Decision Tree, achieved an accuracy of 98.11% and demonstrated good precision, recall, and F1-score for both benign and malignant cases.
 
 # Complex Model
 The Random Forest model outperformed the baseline, achieving an accuracy of 93.86% and showing improved precision, recall, and F1-score for both classes.
 
 # Evaluation
 # Recommendations
-Model Selection: Choose the Random Forest model for its higher accuracy.
+Model Selection: Choose the Decision tree model for its higher accuracy.
 Regular Monitoring: Regularly assess the model's performance and update it as new data becomes available.
 Domain Expert Collaboration: Collaborate with healthcare domain experts to enhance model interpretability.
 # Future Improvements
