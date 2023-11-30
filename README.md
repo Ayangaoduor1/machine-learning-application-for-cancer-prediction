@@ -1,7 +1,7 @@
 # machine-learning-application-for-cancer-prediction
 This project encompasses two models to come up with the best for cancer prediction and prognosis
 
-![alt text](https://github.com/[Ayangaoduor1]/[machine-learning-application-for-cancer-prediction]/blob/[main]/image.jpg?raw=true)
+(https://github.com/[Ayangaoduor1]/[machine-learning-application-for-cancer-prediction]/blob/[main]/image.jpg?raw=true)
 
 # Overview
 This machine-learning project focuses on predicting cancer types as benign or malignant using a dataset containing 570 cancer cells and 30 features. The primary goal is to develop an accurate predictive model for cancer prognosis.
